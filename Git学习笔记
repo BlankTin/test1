@@ -1,1 +1,19 @@
-安装Git之后，如果出现账户无资格
+安装Git之后，如果出现账户无资格请按照以下步骤
+1.git init
+2.git config user.name 【空格】"用户名"
+3.git config user.email 【空格】"邮箱"
+4.git add *
+5.git commit -m "some init msg"
+（23一定记得添加空格）
+
+Git命令：1：创建文件夹：mkdir demo1
+        2:文件夹内初始化Git:git demo1 
+                           git init
+        3:创建一个文件：touch demo1
+        4:查看工作目录文件状态：git status
+        5:将文件上传到暂存区：git add demo1
+        6：将文件从暂存区上传到仓库：git commit -m "描述"
+        7：编辑/修改 文件：vi demo1 按insert切换模式，按esc之后shift+:wq保存退出
+        8：删除文件操作：第一步：rm -rf demo1 删除暂存区文件
+                        第二部：git rm demo1 删除仓库文件
+                        第三步：git commit -m ""提交问题描述
