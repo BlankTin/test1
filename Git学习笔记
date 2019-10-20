@@ -17,3 +17,5 @@ Git命令：1：创建文件夹：mkdir demo1
         8：删除文件操作：第一步：rm -rf demo1 删除暂存区文件
                         第二部：git rm demo1 删除仓库文件
                         第三步：git commit -m ""提交问题描述
+                        
+                        9:提交到远程仓库，git push
